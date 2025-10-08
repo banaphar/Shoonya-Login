@@ -51,7 +51,7 @@ pip install numpy
 pip install pandas
 pip install PyYAML
 pip install norenrestapi
-
+pip install pyotp 
 # Clone the Shoonya Login repository
 git clone https://github.com/banaphar/Shoonya-Login.git
 cd Shoonya-Login
