@@ -35,12 +35,12 @@ apt install git -y
 apt install python -y
 pkg install cmake -y
 pkg install clang make -y
-export PATH=$PATH:/data/data/com.termux/file
-s/usr/bin
+export PATH=$PATH:/data/data/com.termux/files/usr/bin
 pkg install ninja patchelf -y
 pip install --upgrade pip setuptools wheel
 pip install numpy
-pip install pandas                          pip install PyYAML
+pip install pandas
+pip install PyYAML
 pip install norenrestapi
 git clone https://github.com/banaphar/Shoony
 a-Login.git
