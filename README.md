@@ -29,19 +29,29 @@ It automates **TOTP-based 2FA** and initializes your API session.
 Open Termux and run the following commands step by step:
 
 ```bash
+# Update and upgrade Termux packages
 apt update
 apt upgrade -y
+
+# Install Git and Python
 apt install git -y
 apt install python -y
+
+# Install required tools
 pkg install cmake -y
 pkg install clang make -y
-export PATH=$PATH:/data/data/com.termux/files/usr/bin
 pkg install ninja patchelf -y
+
+# Configure PATH if needed
+export PATH=$PATH:/data/data/com.termux/files/usr/bin
+
+# Upgrade Python packages and install dependencies
 pip install --upgrade pip setuptools wheel
 pip install numpy
 pip install pandas
 pip install PyYAML
 pip install norenrestapi
-git clone https://github.com/banaphar/Shoony
-a-Login.git
+
+# Clone the Shoonya Login repository
+git clone https://github.com/banaphar/Shoonya-Login.git
 cd Shoonya-Login
